@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Sophys'Blog]]></title>
+  <link href="http://sophys.github.io/atom.xml" rel="self"/>
+  <link href="http://sophys.github.io/"/>
+  <updated>2014-05-16T17:00:58+08:00</updated>
+  <id>http://sophys.github.io/</id>
+  <author>
+    <name><![CDATA[Sophys]]></name>
+    <email><![CDATA[ysan_hfut@msn.cn]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
