@@ -63,10 +63,17 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: sophys
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
+
+#weibo
+weibo_user: ysan521
+
+# duoshuo comments
+duoshuo_comments: true
+duoshuo_short_name: sophys
 
 # Twitter
 twitter_user:
