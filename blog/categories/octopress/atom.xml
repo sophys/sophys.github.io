@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Sophys'Blog]]></title>
-  <link href="http://sophys.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: octopress | Sophys'Blog]]></title>
+  <link href="http://sophys.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://sophys.github.io/"/>
   <updated>2014-05-16T19:47:52+08:00</updated>
   <id>http://sophys.github.io/</id>
@@ -23,7 +23,7 @@
 <!--more-->
 
 
-<p>很少写博客的，基本上都是以记笔记的形式来保存知识的，电脑网页手机端都可以看到。翻了翻我的麦库记事本满满的n多类别，杂而乱，都是遇到一个知识点马上记录下来，不是很系统，自己看还凑活。用github也有一段时间了，发现github的page还是很火的，所以就有了自己搭建一个博客的冲动，虽然在sae上给自己搭建了wordpress，但是相对于在github上搭建blog，那简直不是一个数量级上得，总有种hacker的感觉，虽然octopress也标榜&#8221;A blogging framework for hackers&#8221;.以后就拿麦库随手记录点东西吧，多多的写点东西到blog上，写博客也是一种锻炼，虽然我的表达能力很差吧。。。</p>
+<p>很少写博客的，基本上都是以记笔记的形式来保存知识的，电脑网页手机端都可以看到。翻了翻我的麦库记事本满满的n多类别，杂而乱，都是遇到一个知识点马上记录下来，不是很系统，自己看还凑活。用github也有一段时间了，发现github的page还是很火的，所以就有了自己搭建一个博客的冲动，虽然在sae上给自己搭建了wordpress，但是相对于在github上搭建blog，那简直不是一个数量级上得，总有种hacker的感觉，虽然octopress也标榜"A blogging framework for hackers".以后就拿麦库随手记录点东西吧，多多的写点东西到blog上，写博客也是一种锻炼，虽然我的表达能力很差吧。。。</p>
 
 <p>在搭建的过程中也遇到了很多问题，多谢了那么多网友blog里边的经验分享。我想说互联网的精神就是无私分享，愿我们将这种精神发扬光大。</p>
 ]]></content>
