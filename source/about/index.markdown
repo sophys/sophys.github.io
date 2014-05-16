@@ -9,12 +9,12 @@ footer: true
 ***
 
 Email：
-> - Gmail：ysan_hfut@msn.cn
+> - e-mail：ysan_hfut@msn.cn
     
 
 You can also find me in the follow sites：    
 
 > - [个人博客](http://sophys.github.io )   
-> - [GitHub](https://github.com/ysan521) 
+> - [GitHub](https://github.com/sophys) 
 > - [新浪微博](http://weibo.com/ysan521)     
  
