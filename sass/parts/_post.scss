@@ -1,11 +1,12 @@
 .post{
 	h2.title, .entry-content{
-		margin-left: 200px;
+		margin-right: 200px;
 		@media screen and (max-width: 800px){
 			margin-left: 0;
 		}
 	}
 	.meta{
+		margin-left: 850px;
 		position: absolute;
 		top: 85px;
 		line-height: 2;
@@ -21,6 +22,19 @@
 			@include link-colors($color-gray02, $color-gray01);
 			@include transition(0.3s);
 		}
+
+   .post-index{
+      position: fixed;
+      top: 250px;  
+      padding-top: 20px;
+      a{
+        @include link-colors($color-gray02, $color-gray01);
+	/*$color-main, $color-main-darken);*/
+      }
+      .menuindexh4{
+        padding-left: 15px;
+      }
+    }
 		.date, .tags, .comments{
 			padding-left: 30px;
 			position: relative;

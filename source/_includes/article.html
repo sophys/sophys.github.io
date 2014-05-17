@@ -21,6 +21,7 @@
 	<div class="date">{% include post/date.html %}{{ time }}</div>
 	<div class="tags">{% include post/categories.html %}</div>
 	{% if site.duoshuo_short_name and site.duoshuo_comments == true %}
-	<div class="comments"><a href="{{ root_url }}{% if index %}{{ post.url }}{% endif %}#duoshuo.html">Comments</a></div>
+	<span class="comments"><a href="{{ root_url }}{% if index %}{{ post.url }}{% endif %}#duoshuo.html">Comments</a></span>
 	{% endif %}
+	<div class="post-index"></div>
 </div>
