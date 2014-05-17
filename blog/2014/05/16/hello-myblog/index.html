@@ -115,8 +115,9 @@
 
 </div>
 	
-	<div class="comments"><a href="#duoshuo.html">Comments</a></div>
+	<span class="comments"><a href="#duoshuo.html">Comments</a></span>
 	
+	<div class="post-index"></div>
 </div>
 </article>
 
@@ -157,6 +158,23 @@
 </div>
 
 
+
+<script type="text/javascript">
+  tmp = '<div><a href="#">CONTENTS</a></div>';
+  $('.post-index').append(tmp);
+  $.each($('h3, h4'), function(index, item){
+      item.id = 'menuindex'+index;
+      tmpText = $(item).text();
+      if(item.tagName.toLowerCase() == 'h3'){
+        tmpClass = 'menuindexh3';  
+        }else{
+        tmpClass = 'menuindexh4';
+        }
+        tmp = '<div class="' + tmpClass +'"><a href="#' + item.id +
+        '">' + tmpText + '</a></div>';  
+      $('.post-index').append(tmp);
+  });
+</script>
 
 
 <section id="comment">
