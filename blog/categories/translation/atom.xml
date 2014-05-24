@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: translation,cocos2d | Sophys'Blog]]></title>
-  <link href="http://sophys.github.io/blog/categories/translation-cocos2d/atom.xml" rel="self"/>
+  <title><![CDATA[Category: translation, | Sophys'Blog]]></title>
+  <link href="http://sophys.github.io/blog/categories/translation/atom.xml" rel="self"/>
   <link href="http://sophys.github.io/"/>
-  <updated>2014-05-25T00:23:33+08:00</updated>
+  <updated>2014-05-25T00:29:24+08:00</updated>
   <id>http://sophys.github.io/</id>
   <author>
     <name><![CDATA[Sophys]]></name>
@@ -18,7 +18,7 @@
     <link href="http://sophys.github.io/blog/2014/05/24/cong-cocos2d-iphone-v2-dot-xqian-yi-dao-v3-dot-xzhu-yi-shi-xiang/"/>
     <updated>2014-05-24T22:45:06+08:00</updated>
     <id>http://sophys.github.io/blog/2014/05/24/cong-cocos2d-iphone-v2-dot-xqian-yi-dao-v3-dot-xzhu-yi-shi-xiang</id>
-    <content type="html"><![CDATA[<p><img src="http://www.cocos2d-iphone.org/images/cocos2d-logo.png" alt="Mou icon" /></p>
+    <content type="html"><![CDATA[<p><img src="http://www.cocos2d-iphone.org/images/cocos2d-logo.png" alt="Cocos2d" /></p>
 
 <p>酝酿了半年之久，Cocos2d-iphone终于迎来了一次大的升级:Cocos2d-iphone V3。Cocos2d的v3提供了一组丰富的激动人心的新功能。下边是官方的新增功能列表。</p>
 
