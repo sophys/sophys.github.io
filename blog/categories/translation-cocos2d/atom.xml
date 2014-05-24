@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Sophys'Blog]]></title>
-  <link href="http://sophys.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: translation,cocos2d | Sophys'Blog]]></title>
+  <link href="http://sophys.github.io/blog/categories/translation-cocos2d/atom.xml" rel="self"/>
   <link href="http://sophys.github.io/"/>
   <updated>2014-05-25T00:23:33+08:00</updated>
   <id>http://sophys.github.io/</id>
@@ -75,7 +75,7 @@
 
 <h4>2.CC***Action找不到了？</h4>
 
-<p>  大多数的CCAction类已经重命名了。新的类采用一致的命名方式，都以&#8221;CCAction&#8221;开头。
+<p>  大多数的CCAction类已经重命名了。新的类采用一致的命名方式，都以"CCAction"开头。
 例如：<a href="http://stackoverflow.com/questions/21553933/ccrepeatforever-doesnt-exists-in-cocos2d-iphone-3-0/21554019#21554019"><code>CCRepeatForever</code> </a>现在命名为<code>CCActionRepeatForever</code>
 呵呵，<code>CCCallBlockN</code>，<code>CCCallBlockND</code>都没有了。现在是<code>CCActionCallFuncN</code>和<code>CCActionCallFuncND</code>。其实它们从来没有真正的被需要，并且<code>CCActionCallFuncN</code>和<code>CCActionCallFuncND</code>使用ARC实际上是很危险的。
 可以使用<a href="http://stackoverflow.com/questions/22038737/cccallblockns-alternative-in-cocos2d-v3-0/22039128#22039128"><code>CCCallBlock</code></a>，由于<code>block</code>的工作方式（可以访问相应范围内的变量）完全可以取代上述4个函数而达到同样的效果。也可以使用<a href="http://stackoverflow.com/questions/22134214/cocos2d-v3-ccactioncallfunc-with-object/22141289#22141289"><code>schedule</code></a>调度一个<code>update</code>。</p>
@@ -112,11 +112,10 @@
 
 <h4>10.cocos2d的UIViewController呢？</h4>
 
-<p>  <code>CCDirector!</code> <a href="http://stackoverflow.com/questions/21824693/how-to-modal-or-present-a-viewcontroller-in-cocos2d-v3/21891621#21891621">这里</a>和<a href="http://stackoverflow.com/questions/21979210/present-gkgamecenterviewcontroller-in-a-cocos2d-3-project/22024305#22024305">这里</a>是怎样在cocos2d呈现另外一个 view controller的例子</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>[[CCDirector sharedDirector] presentModalViewController:myView animated:NO];</span></code></pre></td></tr></table></div></figure>
-
+<p>  <code>CCDirector!</code> <a href="http://stackoverflow.com/questions/21824693/how-to-modal-or-present-a-viewcontroller-in-cocos2d-v3/21891621#21891621">这里</a>和<a href="http://stackoverflow.com/questions/21979210/present-gkgamecenterviewcontroller-in-a-cocos2d-3-project/22024305#22024305">这里</a>是怎样在cocos2d呈现另外一个 view controller的例子
+<code>
+[[CCDirector sharedDirector] presentModalViewController:myView animated:NO];
+</code></p>
 
 <h4>11.如何获得屏幕大小？</h4>
 
@@ -180,22 +179,6 @@
 <li><a href="https://www.makegameswith.us/tutorials/cocos2d-3-transition/changes-cocos2d-3/">changes-cocos2d-3</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello MyBlog]]></title>
-    <link href="http://sophys.github.io/blog/2014/05/16/hello-myblog/"/>
-    <updated>2014-05-16T18:38:56+08:00</updated>
-    <id>http://sophys.github.io/blog/2014/05/16/hello-myblog</id>
-    <content type="html"><![CDATA[<p>折腾了几天终于，终于把page做好了，虽然功能还不是很完善，但是基本的功能已经满足了，等有时间了再折腾捣鼓吧。</p>
-
-<!--more-->
-
-
-<p>很少写博客的，基本上都是以记笔记的形式来保存知识的，电脑网页手机端都可以看到。翻了翻我的麦库记事本满满的n多类别，杂而乱，都是遇到一个知识点马上记录下来，不是很系统，自己看还凑活。用github也有一段时间了，发现github的page还是很火的，所以就有了自己搭建一个博客的冲动，虽然在sae上给自己搭建了wordpress，但是相对于在github上搭建blog，那简直不是一个数量级上得，总有种hacker的感觉，虽然octopress也标榜&#8221;A blogging framework for hackers&#8221;.以后就拿麦库随手记录点东西吧，多多的写点东西到blog上，写博客也是一种锻炼，虽然我的表达能力很差吧。。。</p>
-
-<p>在搭建的过程中也遇到了很多问题，多谢了那么多网友blog里边的经验分享。我想说互联网的精神就是无私分享，愿我们将这种精神发扬光大。</p>
 ]]></content>
   </entry>
   

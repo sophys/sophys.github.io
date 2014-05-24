@@ -2,7 +2,13 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://sophys.github.io/blog/2014/05/16/hello-myblog/</loc>
-        <lastmod>2014-05-17T20:13:59+08:00</lastmod>
+        <lastmod>2014-05-24T23:48:56+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://sophys.github.io/blog/2014/05/24/cong-cocos2d-iphone-v2-dot-xqian-yi-dao-v3-dot-xzhu-yi-shi-xiang/
+        </loc>
+        <lastmod>2014-05-25T00:21:43+08:00</lastmod>
     </url>
     <url>
         <loc>http://sophys.github.io/about/</loc>
@@ -10,11 +16,11 @@
     </url>
     <url>
         <loc>http://sophys.github.io/blog/archives/</loc>
-        <lastmod>2014-05-16T19:44:28+08:00</lastmod>
+        <lastmod>2014-05-25T00:21:43+08:00</lastmod>
     </url>
     <url>
         <loc>http://sophys.github.io/</loc>
-        <lastmod>2014-05-16T19:44:28+08:00</lastmod>
+        <lastmod>2014-05-25T00:21:43+08:00</lastmod>
     </url>
     <url>
         <loc>http://sophys.github.io/myproject/</loc>
