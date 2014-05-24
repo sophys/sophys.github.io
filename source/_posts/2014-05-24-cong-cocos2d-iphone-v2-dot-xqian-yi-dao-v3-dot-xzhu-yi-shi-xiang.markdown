@@ -3,9 +3,9 @@ layout: post
 title: "从cocos2d-iphone V2.x迁移到V3.x注意事项"
 date: 2014-05-24 22:45:06 +0800
 comments: true
-categories: translation,cocos2d
+categories: translation, cocos2d 
 ---
-![Mou icon](http://www.cocos2d-iphone.org/images/cocos2d-logo.png)
+![Cocos2d](http://www.cocos2d-iphone.org/images/cocos2d-logo.png)
 
 酝酿了半年之久，Cocos2d-iphone终于迎来了一次大的升级:Cocos2d-iphone V3。Cocos2d的v3提供了一组丰富的激动人心的新功能。下边是官方的新增功能列表。
 <!--more-->
@@ -13,7 +13,7 @@ categories: translation,cocos2d
 >* 官方的Android的支持。 
 >*  一个整洁的API。
 >* 完整的API文档。 
->* 内置基于Chipmunk的CCPhysics。 
+>* 内置基于Chipmunk的CCPhysics。
 >* 大大改善了触摸操控。
 
 相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自[learn-cocos2d.com](http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/)的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。
