@@ -5,6 +5,8 @@
 	<title>{% if page.title %}{{ page.title | strip_html }} - {% endif %}{{ site.title }}</title>
 	<meta name="author" content="{{ site.author }}">
 
+	<meta name="keywords" content="cocos2d, octopress, mysql, linux, ios">
+
 	{% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
 	<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
 	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}

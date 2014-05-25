@@ -4,6 +4,8 @@ title: "从cocos2d-iphone V2.x迁移到V3.x注意事项"
 date: 2014-05-24 22:45:06 +0800
 comments: true
 categories: [translation, cocos2d] 
+keywords: cocos2d, iphone, v2, v3, ios
+description: 从cocos2d-iphone V2.x迁移到V3.x注意事项
 ---
 {% img right /images/pic/cocos2d-logo.png  %} 
 
