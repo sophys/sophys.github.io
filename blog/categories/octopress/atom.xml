@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Sophys'Blog]]></title>
   <link href="http://sophys.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://sophys.github.io/"/>
-  <updated>2014-05-25T00:29:24+08:00</updated>
+  <updated>2014-05-25T10:10:39+08:00</updated>
   <id>http://sophys.github.io/</id>
   <author>
     <name><![CDATA[Sophys]]></name>
@@ -18,7 +18,9 @@
     <link href="http://sophys.github.io/blog/2014/05/16/hello-myblog/"/>
     <updated>2014-05-16T18:38:56+08:00</updated>
     <id>http://sophys.github.io/blog/2014/05/16/hello-myblog</id>
-    <content type="html"><![CDATA[<p>折腾了几天终于，终于把page做好了，虽然功能还不是很完善，但是基本的功能已经满足了，等有时间了再折腾捣鼓吧。</p>
+    <content type="html"><![CDATA[<p><img class="right" src="/images/pic/github_page_and-octopress.png" title="" ></p>
+
+<p>折腾了几天终于，终于把page做好了，虽然功能还不是很完善，但是基本的功能已经满足了，等有时间了再折腾捣鼓吧。</p>
 
 <!--more-->
 

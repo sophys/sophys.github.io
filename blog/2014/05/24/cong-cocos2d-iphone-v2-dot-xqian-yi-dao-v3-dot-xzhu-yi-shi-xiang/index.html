@@ -84,7 +84,7 @@
 	
 	<div id="content" class="inner"><article class="post">
 	<h2 class="title">从cocos2d-iphone V2.x迁移到V3.x注意事项</h2>
-	<div class="entry-content"><p><img src="http://www.cocos2d-iphone.org/images/cocos2d-logo.png" alt="Cocos2d" /></p>
+	<div class="entry-content"><p><img class="right" src="/images/pic/cocos2d-logo.png" title="" ></p>
 
 <p>酝酿了半年之久，Cocos2d-iphone终于迎来了一次大的升级:Cocos2d-iphone V3。Cocos2d的v3提供了一组丰富的激动人心的新功能。下边是官方的新增功能列表。</p>
 
@@ -103,16 +103,20 @@
 <p>相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自<a href="http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/">learn-cocos2d.com</a>的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。</p>
 
 <p>这个教程是对那些从cocos2d-iphone V2版本迁移到到V3版本用户的一些提示和技巧的集合。大部分涉及到的问题都贴在<a href="www.stackoverflow.com">stackoverflow.com</a>。
-请原谅我在教程中描述的简短。我的时间有限但是不想再等两周以后再写这个教程，就像两周以前一样（第一次在4年左右，呵呵）。</p>
+请原谅我在教程中描述的简短。我的时间有限但是不想再等两周以后再写这个教程，就像两周以前一样（第一次在4年前左右，呵呵）。</p>
 
 <h2>一、一般提示</h2>
 
 <h4>1.许多类已被重命名</h4>
 
-<p>“查看源代码，伙计”如果你找不到你要用的类：
- 1. 查阅cocos2d的<a href="http://www.cocos2d-iphone.org/docs/api/index.html">API文档</a>
- 2. 键入类名或方法名，看Xcode的自动补全建议
- 3. 使用类名的一部分（如<code>repeatforever</code>），并执行“查找项目”来搜索所有的源代码文件</p>
+<p>“查看源代码，伙计”如果你找不到你要用的类：</p>
+
+<ol>
+<li>查阅cocos2d的<a href="http://www.cocos2d-iphone.org/docs/api/index.html">API文档</a></li>
+<li>键入类名或方法名，看Xcode的自动补全建议</li>
+<li>使用类名的一部分（如<code>repeatforever</code>），并执行“查找项目”来搜索所有的源代码文件</li>
+</ol>
+
 
 <h4>2.现有的教程不再适用于V3</h4>
 
@@ -200,8 +204,9 @@
 
 <p>  <code>
   #import "CCNode_Private.h"
- </code>
- 这里是一个<a href="http://stackoverflow.com/questions/22017033/cocos2d-3-blur-shaders/22020715#22020715">例子</a>，<a href="http://stackoverflow.com/questions/21587876/shaderprogram-in-cocos2d-3-0-doesnt-work/21612872#21612872">另一种</a>。</p>
+ </code></p>
+
+<p> 这里是一个<a href="http://stackoverflow.com/questions/22017033/cocos2d-3-blur-shaders/22020715#22020715">例子</a>，<a href="http://stackoverflow.com/questions/21587876/shaderprogram-in-cocos2d-3-0-doesnt-work/21612872#21612872">另一种</a>。</p>
 
 <blockquote><p>警告：这个API现在是私有的，谨慎使用。因为V3.1将会使用不同的渲染器，因此访问<code>shader</code>属性的方法可能会在v3.1中有所改变。</p></blockquote>
 
@@ -266,7 +271,7 @@
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/cocos2d/'>cocos2d</a>, <a class='category' href='/blog/categories/translation/'>translation,</a>
+	<a class='category' href='/blog/categories/cocos2d/'>cocos2d</a>, <a class='category' href='/blog/categories/translation/'>translation</a>
 
 
 </div>
