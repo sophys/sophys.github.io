@@ -28,7 +28,7 @@
       top: 250px;  
       padding-top: 20px;
       a{
-        @include link-colors($color-gray02, $color-gray01);
+        @include link-colors($color-main, $color-main-darken);
       }
       .menuindexh4{
         padding-left: 15px;
