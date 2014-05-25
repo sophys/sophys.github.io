@@ -3,9 +3,9 @@ layout: post
 title: "从cocos2d-iphone V2.x迁移到V3.x注意事项"
 date: 2014-05-24 22:45:06 +0800
 comments: true
-categories: translation, cocos2d 
+categories: [translation, cocos2d] 
 ---
-![Cocos2d](http://www.cocos2d-iphone.org/images/cocos2d-logo.png)
+{% img right /images/pic/cocos2d-logo.png  %} 
 
 酝酿了半年之久，Cocos2d-iphone终于迎来了一次大的升级:Cocos2d-iphone V3。Cocos2d的v3提供了一组丰富的激动人心的新功能。下边是官方的新增功能列表。
 <!--more-->
@@ -19,10 +19,12 @@ categories: translation, cocos2d
 相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自[learn-cocos2d.com](http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/)的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。
 
 这个教程是对那些从cocos2d-iphone V2版本迁移到到V3版本用户的一些提示和技巧的集合。大部分涉及到的问题都贴在[stackoverflow.com](www.stackoverflow.com)。
-请原谅我在教程中描述的简短。我的时间有限但是不想再等两周以后再写这个教程，就像两周以前一样（第一次在4年左右，呵呵）。
+请原谅我在教程中描述的简短。我的时间有限但是不想再等两周以后再写这个教程，就像两周以前一样（第一次在4年前左右，呵呵）。
 ##一、一般提示
 ####1.许多类已被重命名
 “查看源代码，伙计”如果你找不到你要用的类： 
+
+
  1. 查阅cocos2d的[API文档](http://www.cocos2d-iphone.org/docs/api/index.html)
  2. 键入类名或方法名，看Xcode的自动补全建议
  3. 使用类名的一部分（如`repeatforever`），并执行“查找项目”来搜索所有的源代码文件
@@ -76,9 +78,11 @@ categories: translation, cocos2d
 ####13.如何在cocos2d-iphone v3中集成iAd的？
   这是一个[例子](http://stackoverflow.com/questions/21771126/how-to-add-iad-in-cocos-spritebuilder/21797037#21797037)，还有[这里](http://stackoverflow.com/questions/21868303/hiding-iad-in-cocos2d-v3-0/21871818#21871818)如何隐藏的iAd的横幅视图。
 ####14.如何在CCSprite使用自定义着色器？
+
   ```
   #import "CCNode_Private.h"
   ```
+  
  这里是一个[例子](http://stackoverflow.com/questions/22017033/cocos2d-3-blur-shaders/22020715#22020715)，[另一种](http://stackoverflow.com/questions/21587876/shaderprogram-in-cocos2d-3-0-doesnt-work/21612872#21612872)。
 >警告：这个API现在是私有的，谨慎使用。因为V3.1将会使用不同的渲染器，因此访问`shader`属性的方法可能会在v3.1中有所改变。
 

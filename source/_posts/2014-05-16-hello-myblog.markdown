@@ -5,6 +5,8 @@ date: 2014-05-16 18:38:56 +0800
 comments: true
 categories: octopress
 ---
+{% img right /images/pic/github_page_and-octopress.png  %} 
+
 折腾了几天终于，终于把page做好了，虽然功能还不是很完善，但是基本的功能已经满足了，等有时间了再折腾捣鼓吧。
 <!--more-->
 
