@@ -4,7 +4,7 @@
   <title><![CDATA[Sophys'Blog]]></title>
   <link href="http://sophys.github.io/atom.xml" rel="self"/>
   <link href="http://sophys.github.io/"/>
-  <updated>2014-05-25T23:03:44+08:00</updated>
+  <updated>2014-08-25T23:06:31+08:00</updated>
   <id>http://sophys.github.io/</id>
   <author>
     <name><![CDATA[Sophys]]></name>
@@ -159,9 +159,9 @@
 </ul>
 </blockquote>
 
-<p>相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自<a href="http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/">learn-cocos2d.com</a>的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。</p>
+<p>相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自<a href="http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/">www.learn-cocos2d.com</a>的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。</p>
 
-<p>这个教程是对那些从cocos2d-iphone V2版本迁移到到V3版本用户的一些提示和技巧的集合。大部分涉及到的问题都贴在<a href="www.stackoverflow.com">stackoverflow.com</a>。
+<p>这个教程是对那些从cocos2d-iphone V2版本迁移到到V3版本用户的一些提示和技巧的集合。大部分涉及到的问题都贴在<a href="www.stackoverflow.com">www.stackoverflow.com</a>。
 请原谅我在教程中描述的简短。我的时间有限但是不想再等两周以后再写这个教程，就像两周以前一样（第一次在4年前左右，呵呵）。</p>
 
 <h2>一、一般提示</h2>
