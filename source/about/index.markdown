@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 ####i捣鼓，i折腾###
-####$i编程，i开源，i自由，i生活##
+####i编程，i开源，i自由，i生活##
 
 
 ***
