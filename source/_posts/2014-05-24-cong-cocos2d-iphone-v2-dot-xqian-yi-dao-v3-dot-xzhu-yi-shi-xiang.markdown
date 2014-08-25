@@ -18,9 +18,9 @@ description: 从cocos2d-iphone V2.x迁移到V3.x注意事项
 >* 内置基于Chipmunk的CCPhysics。
 >* 大大改善了触摸操控。
 
-相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自[learn-cocos2d.com](http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/)的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。
+相对于v2版本，v3版本确实做了很大的变动，以前在v2版本写的程序不是那么容易的就能迁移到v3版本中了。下边是来自[www.learn-cocos2d.com](http://www.learn-cocos2d.com/2014/03/migrating-cocos2diphone-v3-tips-tricks/)的一篇译文，大致罗列了从v2迁移到v3需要注意的一些问题。
 
-这个教程是对那些从cocos2d-iphone V2版本迁移到到V3版本用户的一些提示和技巧的集合。大部分涉及到的问题都贴在[stackoverflow.com](www.stackoverflow.com)。
+这个教程是对那些从cocos2d-iphone V2版本迁移到到V3版本用户的一些提示和技巧的集合。大部分涉及到的问题都贴在[www.stackoverflow.com](www.stackoverflow.com)。
 请原谅我在教程中描述的简短。我的时间有限但是不想再等两周以后再写这个教程，就像两周以前一样（第一次在4年前左右，呵呵）。
 ##一、一般提示
 ####1.许多类已被重命名

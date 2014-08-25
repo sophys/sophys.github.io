@@ -6,10 +6,14 @@ comments: true
 sharing: true
 footer: true
 ---
+####i捣鼓，i折腾###
+####$i编程，i开源，i自由，i生活##
+
+
 ***
 
 Email：
-> - e-mail：ysan_hfut@msn.cn
+> - e-mail：yangshuai_hfut@163.com
     
 
 You can also find me in the follow sites：    
